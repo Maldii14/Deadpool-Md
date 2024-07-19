@@ -164,7 +164,7 @@ const contactsss = JSON.parse(fs.readFileSync("./pushkont/contacts.json"))
 const svcontact = JSON.parse(fs.readFileSync("./pushkont/svcontact.json"))
 const isContacts = contactsss.includes(m.sender)
 	    const moment = require("moment-timezone")
-const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss")
+const time2 = moment().tz("Africa/Nairobi").format("HH:mm:ss")
 if(time2 < "20:00:00"){
 var ucapanWaktu = "𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐌𝐚𝐥𝐚𝐦"
 }
@@ -240,7 +240,7 @@ return zetsubo.sendMessage(from, { text: teks, contextInfo:{"externalAdReply": {
 
 const zetsreply = async (teks) => {
 	    zetsubo.sendMessage(from, { text:teks, contextInfo: {externalAdReply : {
-        title : `𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟 𝗕𝗨𝗚`,
+        title : `𝗗 𝗕𝗨𝗚`,
         body : `𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
@@ -251,22 +251,22 @@ const zetsreply = async (teks) => {
 
 const virgamreply = async (teks) => {
 	    zetsubo.sendMessage(bnnd, { text:teks, contextInfo: {externalAdReply : {
-        title : `⫹⸙⧉𝘿𝙀𝘼𝘿𝙋𝙊𝙊𝙇-𝙈𝘿⧉⸙⫺`,
-        body : `⧉⸙FRANK⸙⧉⸙⫺`,
+        title : `𝘿-𝙈𝘿⧉⸙⫺`,
+        body : `M.M⸙⧉⸙⫺`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
-        mediaUrl: `https://www.instagram.com/confronter._?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+        mediaUrl: `https://www.instagram.com/maldives_mak?igsh=NGVhN2U2NjQ0Yg==`,
         mediaType: 2, 
         thumbnail:virgam
         }}}, { quoted: kalgans })}
 
 const genreply = async (teks) => {
 	    zetsubo.sendMessage(from, { text:teks, contextInfo: {externalAdReply : {
-        title : `⫹⸙⧉𝙳𝙴𝙰𝙳𝙿𝙾𝙾𝙻⧉⸙⫺`,
-        body : `⧉⸙CONFRONTER⧉`,
+        title : `D bug⧉⸙⫺`,
+        body : `⧉⸙Maldivee⧉`,
         renderLargerThumbnail:false,
         showAdAttribution: true, 
-        mediaUrl: `https://www.instagram.com/confronter._?utm_source=qr&igsh=MzNlNGNkZWQ4Mg==`,
+        mediaUrl: `https://www.instagram.com/maldives_mak?igsh=NGVhN2U2NjQ0Yg==`,
         mediaType: 2, 
         thumbnail:hinachan
         }}}, { quoted: zets })} 
@@ -342,9 +342,9 @@ reply(`${err}`)
 async function loading () {
 var hawemod = [
 
-` ☸️𝐃𝐄𝐀𝐃𝐏𝐎𝐎𝐋 𝐁𝐔𝐆 𝐕2☸️
+` 🌿D 𝐁𝐔𝐆 🌿
 ❗️𝐭𝐲𝐩𝐞 .𝐚𝐥𝐥𝐦𝐞𝐧𝐮 𝐟𝐨𝐫 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬❗️
-  ✳️𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 𝐂𝐨𝐧𝐟𝐫𝐨𝐧𝐭𝐞𝐫✳️`
+  ✳️𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 Maldives✳️`
 ]
 let { key } = await zetsubo.sendMessage(from, {text: '@𝐃𝐄𝐀𝐃𝐏𝐎𝐎𝐋 𝐕2.....'})//Pengalih isu
 
@@ -801,13 +801,13 @@ let hiks = {
 image: cewegw, 
   caption: ewe,
   contextInfo:{externalAdReply:{
-  title: ' ☸️𝐃𝐄𝐀𝐃𝐏𝐎𝐎𝐋 𝐁𝐔𝐆 𝐕2☸️',
-  body: '𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁', 
+  title: ' 🌿𝐃 𝐁𝐔𝐆 𝐕🌿',
+  body: 'Maldives', 
   showAdAttribution: true,
   thumbnail:hinachan,
   mediaType: 4,
-  MediaUrl:`https://telegra.ph/file/e72bd57ff8ed761e85b4a.jpg`,
-  sourceUrl:`https://whatsapp.com/channel/0029Vag3MeuGJP8LZb1Okj39`,
+  MediaUrl:`https://telegra.ph/file/a977c54af76efc743dcc3.jpg`,
+  sourceUrl:`https://whatsapp.com/channel/0029VaWrCuH35fLuVP2iCc2R`,
   }}
   }
 zetsubo.sendMessage(from, hiks, {quoted: zets })}
@@ -867,14 +867,14 @@ mentionedJid:[sender],
 break
 case 'allmenu':
 await loading()
-if (isBan) return reply('*Motherfucker you are not owner😂🖕*')
+if (isBan) return reply('*Hey you are not owner😂🖕*')
 let fooutgdhsikzz = `Runtime : ⏳ ${runtime(process.uptime())}`
 sendGeekzMessage(from, { 
 text: `Hey ${pushname} ${salam2}
 Deadpool :  ${owner.length}
 Status : ${isCreator ? 'Premium' : 'Free'}
-  ✳️𝐃𝐄𝐀𝐃𝐏𝐎𝐎𝐋 𝐁𝐔𝐆 𝐕2✳️
-  ❗️𝐒𝐜 𝐏𝐮𝐛𝐥𝐢𝐜 𝚋𝚢 𝐂𝐨𝐧𝐟𝐫𝐨𝐧𝐭𝐞𝐫☪️
+  ✳️𝐃 𝐁𝐔𝐆 𝐕✳️
+  ❗️𝐒𝐜 𝐏𝐮𝐛𝐥𝐢𝐜 𝚋𝚢 M j☪️
 ✝️𝗔𝗱𝗱 𝗔𝗰𝗰𝗲𝘀☆☆
  💀𝐚𝐝𝐝𝐩𝐫𝐞𝐦 (628xx/@𝐭𝐚𝐠)
  💀𝐝𝐞𝐥𝐩𝐫𝐞𝐦𝐢𝐮𝐦 (628𝐱𝐱/@𝐭𝐚𝐠)
@@ -917,7 +917,7 @@ Status : ${isCreator ? 'Premium' : 'Free'}
  🖋++schedule 62852X
  🖋scheduleobject 62852X
  🖋eatmydickk 62852X
-   💜𝐁𝐘 𝘾𝙤𝙣𝙛𝙧𝙤𝙣𝙩𝙚𝙧._💜
+   🌱𝐁𝐘 MAK J._🌱
 
 🕸❴ 𝑩𝑼𝑮 + 𝑵𝒖𝒎𝒃𝒆𝒓 ❵
  🐝𝒖𝒏𝒍𝒊𝒂𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏 62852𝑿
@@ -929,7 +929,7 @@ Status : ${isCreator ? 'Premium' : 'Free'}
  🐝𝒙𝒔𝒊𝒔𝒕𝒆𝒎 628𝒆 62852𝑿
  🐝𝒔𝒄𝒉𝒆𝒅𝒖𝒍𝒆𝒐𝒃𝒋𝒆𝒄𝒕 62852𝑿
  🐝𝒆𝒂𝒕𝒎𝒚𝒅𝒊𝒄𝒌𝒌 62852𝑿
-     𝐁𝐘 𝘾𝙤𝙣𝙛𝙧𝙤𝙣𝙩𝙚𝙧._
+     𝐁𝐘 MAK J._
 🕸❴ 𝑩𝑼𝑮 𝑮𝑹𝑶𝑼𝑷 ❵
  🦅𝒖𝒏𝒍𝒊𝒅𝒆𝒍𝒂𝒚𝒈𝒄 (𝑰𝑫 𝑮𝑹𝑶𝑼𝑷)
  🦅𝒙𝒈𝒓𝒐𝒖𝒑 (𝑰𝑫 𝑮𝑹𝑶𝑼𝑷)
@@ -944,7 +944,7 @@ Status : ${isCreator ? 'Premium' : 'Free'}
  🦅𝒂𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏𝒘 (𝑮𝑹𝑶𝑼𝑷 𝑳𝑰𝑵𝑲)
  🦅𝒂𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏𝒛 (𝑮𝑹𝑶𝑼𝑷 𝑳𝑰𝑵𝑲)
  🦅𝒈𝒂𝒔𝒇𝒖𝒍𝒍𝒈𝒄 (𝑮𝑹𝑶𝑼𝑷 𝑳𝑰𝑵𝑲)
-    ❴𝘿𝙀𝘼𝘿𝙋𝙊𝙊𝙇 ®2024
+    ❴𝘿 ®2024
 🕸❴ 𝑺𝑬𝑵𝑫 𝑩𝑼𝑮 𝑫𝑰𝑹𝑬𝑪𝑻 ❵
  🍁𝒈𝒆𝒕𝒂𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏𝒃𝒖𝒈
  🍁𝒅𝒊𝒓𝒆𝒄𝒕𝒂𝒕𝒕𝒆𝒏𝒕𝒊𝒐𝒏
@@ -961,13 +961,13 @@ Status : ${isCreator ? 'Premium' : 'Free'}
  🍁30𝒄𝒂𝒍𝒍
  🍁𝒗𝒊𝒓𝒑𝒆𝒏
  🍁𝒄𝒂𝒍𝒍𝒅𝒆𝒍𝒂𝒚
-  ❏𝘿𝙀𝘼𝘿𝙋𝙊𝙊𝙇 ®2024
+  ❏𝘿 ®2024
 🌞 ❴ 𝑺𝒑𝒆𝒄𝒊𝒂𝒍 ❵
 
 🌞❴ 𝑫𝑰𝑺𝑻𝑼𝑹𝑩𝑨𝑵𝑪𝑬 ❵
   🌵𝒔𝒑𝒂𝒎𝒔𝒎𝒔 (628𝒙𝒙)
   🌵𝒄𝒂𝒍𝒍 (628𝒙𝒙)
- ❴ 𝚋𝚢 𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁 ❵
+ ❴ 𝚋𝚢 MAK J ❵
 🕸❴ 𝑼𝑵𝑩𝑨𝑵𝑵 𝑻𝑬𝑿𝑻 ❵
   🧬𝒖𝒏𝒃𝒂𝒏𝒗1 62852𝑿
   🧬𝒖𝒏𝒃𝒂𝒏𝒗2 62852𝑿
@@ -985,7 +985,7 @@ Status : ${isCreator ? 'Premium' : 'Free'}
   🪵𝒕𝒆𝒙𝒕𝒖𝒏𝒃𝒂𝒏2
   🪵𝒕𝒆𝒙𝒕𝒖𝒏𝒃𝒂𝒏3
   🪵𝒕𝒆𝒙𝒕𝒖𝒏𝒃𝒂𝒏4
- 🖇𝚋𝚢 𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁🖇
+ 🎶𝚋𝚢 MAK J🎶
 🕸𝑳𝑶𝑮𝑶𝑼𝑻 (𝑲𝑯𝑼𝑺𝑼𝑺 62)
    🎋𝒌𝒆𝒏𝒐𝒏𝒊𝒏 62852𝑿
    🎋𝒗𝒆𝒓𝒊𝒇𝒚 62852𝑿
@@ -997,7 +997,7 @@ Status : ${isCreator ? 'Premium' : 'Free'}
  🌴𝐩𝐮𝐬𝐡𝐜𝐨𝐧𝐭𝐢𝐝 (𝐆𝐜 𝐋𝐢𝐧𝐤)
  🌴𝐩𝐮𝐬𝐡𝐤𝐨𝐧𝐭𝐚𝐤 𝐭𝐞𝐤𝐬 (𝐬𝐞𝐧𝐭 𝐭𝐨 𝐆𝐂)
 ✝️❴ GROUPMENU ❵
-          ❰ 𝘿𝙀𝘼𝘿𝙋𝙊𝙊𝙇  💀❱
+          ❰ D  💀❱
  🧸𝖜𝖊𝖑𝖈𝖔𝖒𝖊 𝖔𝖓 / 𝖔𝖋𝖋
  🧸𝖆𝖓𝖙𝖎𝖑𝖎𝖓𝖐 𝖔𝖓 / 𝖔𝖋𝖋
  🧸𝖆𝖓𝖙𝖎𝖙𝖔𝖝𝖎𝖈 𝖔𝖓 / 𝖔𝖋𝖋
@@ -1248,8 +1248,8 @@ Status : ${isCreator ? 'Premium' : 'Free'}
 🇰🇪asupan18
 🇰🇪asupan18
 🇰🇪asupan20   
-┃    ▓ ❰ 𝙳𝙴𝙰𝙳𝙿𝙾𝙾𝙻®2024 ❱ ▓
-┗━━━━━━━━━Regards to @𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁━━━━━━━━━━━━━`,
+┃    ▓ ❰ 𝙳 ®2024-2100 ❱ ▓
+┗━━━━━━━━━Regards to @Maldii14━━━━━━━━━━━━━`,
 mentions:[sender],
 contextInfo:{
 mentionedJid:[sender],
@@ -3362,8 +3362,8 @@ for (let i = 0; i < jumlah; i++) {
 var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 "documentMessage": {
 "url": "https://mmg.whatsapp.net/d/f/AjZ6wydBPTW9LotpjZK5gSstbxj0L_B2sCeSm-JWLPPS.enc",
-"mimetype": "༐༑⿻⫹⸙⧉𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟⧉⸙⫺⿻༔༐༑",
-"title": "༐༑⿻FRANK⿻༔༐༑",
+"mimetype": "༐༑⿻𝗗🔵⿻༔༐༑",
+"title": "༐༑⿻M.MALDIVES⿻༔༐༑",
 "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
 "pageCount": 0,
 "mediaKey": "SkHeALp42Ch7DGb6nuV6p7hxL+V9yjh9s9t3Ox8a72o=",
@@ -3371,7 +3371,7 @@ var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 "fileEncSha256": "CnBDLUVshNEAmK8C4ShVaI99hh/oFBEZHIeGsL/Q3HY=",
 "directPath": "/v/t62.7119-24/19245462_2210838589082189_6252828231656384414_n.enc?ccb=11-4&oh=01_AVxdbYsmdj4IcIAC5_cBEX2zk7LnBmgTLyqZ7H83Z0Ci_g&oe=6303EB20",
 "mediaKeyTimestamp": "1658703206",
-"caption":` ༐༑⿻DEADPOOL⿻༔༐༑.${buttonkal}`,
+"caption":` ༐༑⿻D⿻༔༐༑.${buttonkal}`,
 }
 }), { userJid: from, quoted:kalgans})
 zetsubo.relayMessage(bnnd, document.message, { messageId: document.key.id })
@@ -6892,8 +6892,8 @@ var groupInvite = generateWAMessageFromContent(from, proto.Message.fromObject({
 "inviteTime":"1688566586000",
 "expired":"0",
 "groupType":"0",
-"groupName": `༐༑⿻𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟⿻༔༐༑${cttl}`,
-"caption": `༐༑⿻FRANK⿻༔༐༑${bugui}`,
+"groupName": `༐༑⿻𝗗⿻༔༐༑${cttl}`,
+"caption": `༐༑⿻mak j⿻༔༐༑${bugui}`,
 "jpegThumbnail": kosongjpg,
 }
 }), { userJid: from, quoted: kalgans })
@@ -7387,7 +7387,7 @@ zetsubo.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption:
 break
 //=================================================
 case 'runtime':
-                let pinga = `𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟 𝙷𝙰𝚂 𝙱𝙴𝙴𝙽 𝚁𝚄𝙽𝙽𝙸𝙽𝙶 𝙵𝙾𝚁.${runtime(process.uptime())}`
+                let pinga = `𝗗 bug 𝙷𝙰𝚂 𝙱𝙴𝙴𝙽 𝚁𝚄𝙽𝙽𝙸𝙽𝙶 𝙵𝙾𝚁.${runtime(process.uptime())}`
                 zetsubo.sendMessage(m.chat, {
                     text: pinga,
                     contextInfo: {
@@ -7753,7 +7753,7 @@ break
 case 'sc': case 'script': case 'repo':
 
  zetsubo.sendMessage(m.chat, { image: { url: `https://telegra.ph/file/d35db1661c77f8ea9b429.jpg` }, caption: 
-`╭╼╼╼╼💀💀💀╼╼╼╼╼╼╼╼╼💀💀💀╼╼╼╼╼╼╼╮\n\n 📌𝙷𝙴𝚈  *${pushname}* \n\n 📌 𝙰𝙼 𝙳𝙴𝙰𝙳𝙿𝙾𝙾𝙻 𝙱𝚄𝙶 ☣.\n\n 📌  𝙶𝙴𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 .\n\n 📌𝚅𝙸𝙰 𝙻𝙸𝙽𝙺 𝙱𝙴𝙻𝙾𝚆  ⇣⇣.\n\n 📌𝙵𝙾𝚁𝙺 𝙰𝙽𝙳 𝚂𝚃𝙰𝚁 𝚁𝙴𝙿𝙾🌟➻ ❴ https://github.com/Confronter/Deadpool-Md ❵\n\n 📌𝙲𝙷𝙴𝙲𝙺𝙾𝚄𝚃 𝚁𝙴𝙰𝙳𝙼𝙴 𝙱𝙴𝙵𝙾𝚁𝙴 𝙳𝙴𝙿𝙻𝙾𝚈𝙼𝙴𝙽𝚃.\n\n 📌𝙼𝙰𝙳𝙴 𝙱𝚈 𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁✇\n\n╰╼╼╼╼╼💀💀💀╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╯⸼` });
+`╭╼╼╼╼💀💀💀╼╼╼╼╼╼╼╼╼💀💀💀╼╼╼╼╼╼╼╮\n\n 📌𝙷𝙴𝚈  *${pushname}* \n\n 📌 𝙰𝙼 𝙳 𝙱𝚄𝙶 ☣.\n\n 📌  𝙶𝙴𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 .\n\n 📌𝚅𝙸𝙰 𝙻𝙸𝙽𝙺 𝙱𝙴𝙻𝙾𝚆  ⇣⇣.\n\n 📌𝙵𝙾𝚁𝙺 𝙰𝙽𝙳 𝚂𝚃𝙰𝚁 𝚁𝙴𝙿𝙾🌟➻ ❴ https://github.com/Maldii14/Deadpool-Md ❵\n\n 📌𝙲𝙷𝙴𝙲𝙺𝙾𝚄𝚃 𝚁𝙴𝙰𝙳𝙼𝙴 𝙱𝙴𝙵𝙾𝚁𝙴 𝙳𝙴𝙿𝙻𝙾𝚈𝙼𝙴𝙽𝚃.\n\n 📌𝙼𝙰𝙳𝙴 𝙱𝚈 mal j✇\n\n╰╼╼╼╼╼💀💀💀╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╯⸼` });
 
    break;
 //=================================================
@@ -7783,10 +7783,10 @@ case 'broadcast':
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: '𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓𝐄𝐃 𝐁𝐘 𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟',
+                                title: '𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓𝐄𝐃 𝐁𝐘 𝗗',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://telegra.ph/file/e72bd57ff8ed761e85b4a.jpg',
-                                sourceUrl: 'https://chat.whatsapp.com/Cl7CwM1UC9YEOWEiCzLAfe',
+                                thumbnailUrl: 'https://telegra.ph/file/a977c54af76efc743dcc3.jpg',
+                                sourceUrl: 'https://whatsapp.com/channel/0029VaWrCuH35fLuVP2iCc2R',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
@@ -7812,10 +7812,10 @@ const audiovn = "./Deadpool.mp3";
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "𝙳𝙴𝙰𝙳𝙿𝙾𝙾𝙻 𝙸𝚂 𝙰𝙻𝙸𝚅𝙴💀",
-          body: "https://chat.whatsapp.com/Cl7CwM1UC9YEOWEiCzLAfe",
-          thumbnailUrl: "https://telegra.ph/file/e72bd57ff8ed761e85b4a.jpg",
-          sourceUrl: "https://whatsapp.com/channel/0029Vag3MeuGJP8LZb1Okj39",
+          title: "𝙳 𝙸𝚂 𝙰𝙻𝙸𝚅𝙴💀",
+          body: "https://whatsapp.com/channel/0029VaWrCuH35fLuVP2iCc2R",
+          thumbnailUrl: "https://telegra.ph/file/a977c54af76efc743dcc3.jpg",
+          sourceUrl: "https://www.instagram.com/maldives_mak?igsh=NGVhN2U2NjQ0Yg==",
           mediaType: 1,
           renderLargerThumbnail: true
           }}
@@ -8447,7 +8447,7 @@ break
 //=================================================//
 case 'restart':  
   if (!isCreator) throw `Owner Only` 
-  reply(`*Restarting Deadpool* .`)  
+  reply(`*Restarting D* .`)  
   await sleep(3000)  
   process.exit()  
   break;
@@ -8461,7 +8461,7 @@ case "dp": {
  pp2 = 'https://tinyurl.com/yx93l6da'; 
  } 
   if (!m.quoted) throw `Tag a user!`; 
- bar = `𝐏𝐫𝐨𝐟𝐢𝐥𝐞 𝐩𝐢𝐜𝐭𝐮𝐫𝐞 𝐨𝐟 ${qd} 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝙳𝙴𝙰𝙳𝙿𝙾𝙾𝙻`; 
+ bar = `𝐏𝐫𝐨𝐟𝐢𝐥𝐞 𝐩𝐢𝐜𝐭𝐮𝐫𝐞 𝐨𝐟 ${qd} 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝙳`; 
  zetsubo.sendMessage(m.chat, { image: { url: pp2}, caption: bar, fileLength: "999999999999"}, { quoted: m}); 
  } 
  break;
@@ -9817,7 +9817,7 @@ if (isBan) return reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
  await sleep(60000)
  if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
  console.log("Jawaban: " + result.jawaban)
- zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/297a0ffd35ca495c710b0.jpg' }, caption:`Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak lagu`},{quoted:m}) 
+ zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a977c54af76efc743dcc3.jpg' }, caption:`Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak lagu`},{quoted:m}) 
  delete tebaklagu[m.sender.split('@')[0]]
  }
  } else if (args[0] === 'gambar') {
@@ -9830,7 +9830,7 @@ if (isBan) return reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
  await sleep(60000)
  if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
  console.log("Jawaban: " + result.jawaban)
- zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/297a0ffd35ca495c710b0.jpg' }, caption: `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak gambar`}, {quoted:m}) 
+ zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a977c54af76efc743dcc3.jpg' }, caption: `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak gambar`}, {quoted:m}) 
  delete tebakgambar[m.sender.split('@')[0]]
  }
  } else if (args[0] === 'kata') {
@@ -9843,7 +9843,7 @@ if (isBan) return reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
  await sleep(60000)
  if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
  console.log("Jawaban: " + result.jawaban)
- zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/297a0ffd35ca495c710b0.jpg' }, caption: `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak kata` }, {quoted:m}) 
+ zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a977c54af76efc743dcc3.jpg' }, caption: `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak kata` }, {quoted:m}) 
  delete tebakkata[m.sender.split('@')[0]]
  }
  } else if (args[0] === 'kalimat') {
@@ -9856,7 +9856,7 @@ if (isBan) return reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
  await sleep(60000)
  if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) {
  console.log("Jawaban: " + result.jawaban)
- zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/297a0ffd35ca495c710b0.jpg' }, caption:`Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak kalimat`}, {quoted:m}) 
+ zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a977c54af76efc743dcc3.jpg' }, caption:`Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak kalimat`}, {quoted:m}) 
  delete tebakkalimat[m.sender.split('@')[0]]
  }
  } else if (args[0] === 'lirik') {
@@ -9869,7 +9869,7 @@ if (isBan) return reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
  await sleep(60000)
  if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) {
  console.log("Jawaban: " + result.jawaban)
- zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/297a0ffd35ca495c710b0.jpg' }, caption: `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak lirik`} , {quoted:m}) 
+ zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a977c54af76efc743dcc3.jpg' }, caption: `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak lirik`} , {quoted:m}) 
  delete tebaklirik[m.sender.split('@')[0]]
  }
  } else if (args[0] === 'lontong') {
@@ -9883,7 +9883,7 @@ caklontong_desk[m.sender.split('@')[0]] = result.deskripsi
  await sleep(60000)
  if (caklontong.hasOwnProperty(m.sender.split('@')[0])) {
  console.log("Jawaban: " + result.jawaban)
- zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/297a0ffd35ca495c710b0.jpg' }, caption:`Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak lontong`}, {quoted:m}) 
+ zetsubo.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a977c54af76efc743dcc3.jpg' }, caption:`Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? Ketik tebak lontong`}, {quoted:m}) 
  delete caklontong[m.sender.split('@')[0]]
 delete caklontong_desk[m.sender.split('@')[0]]
  }
