@@ -344,7 +344,7 @@ var hawemod = [
 
 ` 🌿D 𝐁𝐔𝐆 🌿
 ❗️𝐭𝐲𝐩𝐞 .𝐚𝐥𝐥𝐦𝐞𝐧𝐮 𝐟𝐨𝐫 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬❗️
-  ✳️𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 Maldives✳️`
+  ✳️ DEADPOOL 𝐁𝐨𝐭✳️`
 ]
 let { key } = await zetsubo.sendMessage(from, {text: '@𝐃𝐄𝐀𝐃𝐏𝐎𝐎𝐋 𝐕2.....'})//Pengalih isu
 
@@ -1248,7 +1248,7 @@ Status : ${isCreator ? 'Premium' : 'Free'}
 🇰🇪asupan18
 🇰🇪asupan18
 🇰🇪asupan20   
-┃    ▓ ❰ 𝙳 ®2024-2100 ❱ ▓
+┃    ▓ ❰ ®2024-2100 ❱ ▓
 ┗━━━━━━━━━Regards to @Maldii14━━━━━━━━━━━━━`,
 mentions:[sender],
 contextInfo:{
@@ -2131,7 +2131,7 @@ var document = generateWAMessageFromContent(from, proto.Message.fromObject({
 "documentMessage": {
 "url": "https://mmg.whatsapp.net/d/f/AjZ6wydBPTW9LotpjZK5gSstbxj0L_B2sCeSm-JWLPPS.enc",
 "mimetype": "⫹⸙⧉𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟 𝗕𝗨𝗚⧉⸙⫺",
-"title": "༐༑⿻FRANK⿻༔༐༑",
+"title": "༐༑⿻D BUG USER⿻༔༐༑",
 "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
 "pageCount": 0,
 "mediaKey": "SkHeALp42Ch7DGb6nuV6p7hxL+V9yjh9s9t3Ox8a72o=",
@@ -7515,14 +7515,14 @@ break
 //=================================================// 
 case 'ping': {
   const startTime = new Date();
-  const pingMsg = await zetsubo.sendMessage(m.chat, { text: '*DEADPOOLIFIED*' });
+  const pingMsg = await zetsubo.sendMessage(m.chat, { text: '*Pong 💀*' });
 
  await zetsubo.relayMessage(m.chat, {
       protocolMessage: {
         key: pingMsg.key,
         type: 14,
         editedMessage: {
-          conversation: `*𝗗𝗘𝗔𝗗𝗣𝗢𝗢𝗟𝗜𝗙𝗜𝗘𝗗 ➟* *${new Date() - startTime}* 𝐌/𝐒`
+          conversation: `*BOT SPEED ✈️ ➟* *${new Date() - startTime}* 𝐌/s`
         }
       }
     }, {});
